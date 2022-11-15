@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
 }
@@ -17,4 +21,61 @@ ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+
+body{
+    background: linear-gradient(77.01deg, #303030 7.46%, #1A1A1A 93.95%);;
+}
+.bg-lilas{
+    background: #8C57AD;
+    color: #fff;
+}
+
+.text-lilas{
+    color: #8C57AD;
+}
+
+img.stars{
+    position: relative;
+    height: 40px;
+    left: 220px;
+
+}
+
+h1.title-main{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 0.5;
+}
+
+h1.text-lilas{
+    position: relative;
+    color:#8C57AD;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;    
+    font-size: 6rem;
+    left: 220px;
+}
+
+img.img-games{
+    height: 90%;
+}
+
+a.btn-criar-conta{
+
+    position: relative;
+    background: #8C57AD;
+    width: 220px;
+    left: 32%;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
 }
