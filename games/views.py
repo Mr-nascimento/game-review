@@ -12,3 +12,6 @@ def home_view(request):
 
 def lista(request, id):
     return render(request, 'games/pages/lista.html')
+
+def home(request):
+    return render(request, 'games/pages/index.html')
