@@ -22,8 +22,8 @@
             <div class="container-fluid d-flex justify-content-between">
                 <a class="navbar-brand col text-white">GR</a>
                 <form class="d-flex col justify-content-end">
-                    <a class="btn text-white" href="/login">Login</a>
-                    <a class="btn text-white border-light">Cadastre-se</a>
+                    <a class="btn text-white" href="{% url 'authors:login' %}">Login</a>
+                    <a class="btn text-white border-light" href="{% url 'authors:register' %}">Cadastre-se</a>
                 </form>
             </div>
         </nav>
